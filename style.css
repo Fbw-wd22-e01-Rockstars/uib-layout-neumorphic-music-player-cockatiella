@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+}
+.box {
+  width: 600px;
+  height: 900px;
+  background-color: rgba(245, 245, 245, 0.068);
+  box-shadow: 10px 10px 60px 10px grey;
+  margin-top: 2.5%;
+  border-radius: 5%;
+}
+
+/* ICONS */
+
+i {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+  background: #ededed;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 80px;
+  font-size: 35px;
+  padding: 20px;
+  text-align: center;
+}
+.fa-search {
+  position: relative;
+  bottom: 30%;
+  left: 10%;
+}
+.fa-power-off {
+  position: relative;
+  left: 60%;
+  bottom: 30%;
+  color: red;
+}
+.box p {
+  text-align: center;
+  position: relative;
+  top: 8%;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+/* IMG */
+img {
+  border-radius: 50%;
+  height: 35%;
+  width: 50%;
+  position: relative;
+  top: 15%;
+  right: 5%;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.8;
+}
+
+/* PROGRESS BAR */
+
+progress {
+  width: 38%;
+  height: 50px;
+}
+
+.progress {
+  position: relative;
+  left: 30%;
+  top: 5%;
+}
+
+/* Song title - artist */
+
+.song {
+  position: relative;
+  top: 20%;
+  margin-top: 15px;
+}
+
+.song-title {
+  text-align: center;
+  margin-top: 15px;
+  padding-bottom: 0;
+  margin-bottom: -2.5%;
+  color: black;
+}
+
+.artist-title {
+  text-align: center;
+  padding: 1em 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: darkgray;
+}
+
+.track {
+  margin-top: 10px;
+  height: 10px;
+}
+
+/* Buttons */
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1em 0;
+}
+.btn {
+  padding: 15px;
+  border-radius: 30px;
+  color: gray;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  border: none;
+  margin-top: 25%;
+}
+.fa-play {
+  color: cyan;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/d3b7b40666.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <title>Neumorphic music player</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <p>My Playlist</p>
+            <i class="fas fa-search"></i>
+            <i class="fas fa-power-off"></i>
+            <img src="./assets/track-image.jpeg" alt="track">
+            <div class="song">
+                <h2 class="song-title">
+                    Track#2
+                </h2>
+                <h3 class="artist-title">
+                    Artist
+                </h3>
+            </div>
+
+            <div class="progress">
+                <label for="file"></label>
+                <progress id="file" value="52" max="100"></progress>
+            </div>
+            <div class="buttons">
+                <button class="btn lg neu"><i class="fas fa-backward"></i></button>
+                <button class="btn lg neu"><i class="fas fa-play"></i></button>
+                <button class="btn lg neu"><i class="fas fa-forward"></i></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
