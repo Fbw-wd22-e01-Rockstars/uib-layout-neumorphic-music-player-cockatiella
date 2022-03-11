@@ -14,8 +14,8 @@
 .box {
   width: 600px;
   height: 900px;
-  background-color: rgba(245, 245, 245, 0.068);
-  box-shadow: 10px 10px 60px 10px grey;
+  background-color: #e1e6ec;
+  box-shadow: 5px 5px 11px #e1e2e4, -5px -5px 11px rgb(180, 178, 178);
   margin-top: 2.5%;
   border-radius: 5%;
 }
@@ -71,15 +71,24 @@ img {
 
 /* PROGRESS BAR */
 
-progress {
-  width: 38%;
-  height: 50px;
-}
-
-.progress {
+.level {
+  width: 80%;
+  appearance: none;
+  background-color: #98beec;
+  box-shadow: 5px 5px 11px #a2b1c6, -5px -5px 11px #fff;
+  border-radius: 25px;
+  margin-bottom: 12px;
   position: relative;
-  left: 30%;
-  top: 5%;
+  top: 50px;
+  left: 50px;
+}
+.level::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #a2b1c6;
+  box-shadow: 2px 2px 5px #a2b1c6, -2px -2px 5px #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
 }
 
 /* Song title - artist */
